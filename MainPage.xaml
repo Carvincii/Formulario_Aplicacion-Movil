@@ -6,40 +6,40 @@
     <ScrollView Margin="30">
         <StackLayout >
             <StackLayout Orientation="Vertical">
-                <Label Text="Name:"
+                <Label Text="Nombres Completos:"
                        TextColor="#02c39a"/>
-                <Entry Placeholder="Enter your name"/>
+                <Entry Placeholder="Ingresa tu nombre"/>
             </StackLayout>
             <StackLayout Orientation="Vertical">
-                <Label Text="Age:"
+                <Label Text="Edad:"
                        TextColor="#02c39a"/>
-                <Entry Placeholder="Enter your age" />
+                <Entry Placeholder="Ingresa tu edad" />
             </StackLayout>
             <StackLayout Orientation="Vertical">
-                <Label Text="Occupation:"
+                <Label Text="Ocuapción/carrera:"
                        TextColor="#02c39a"/>
-                <Entry Placeholder="Enter your occupation" />
+                <Entry Placeholder="ingresa lo ocupacion que se dedica" />
             </StackLayout>
             <StackLayout Orientation="Vertical">
-                <Label Text="Contact:"
+                <Label Text="Contacto:"
                        TextColor="#02c39a"/>
-                <Entry Placeholder="Enter your contact" />
+                <Entry Placeholder="Ingrese su número de telefono" />
             </StackLayout>
             <StackLayout Orientation="Vertical">
-                <Label Text="Skills:"
+                <Label Text="Habilidades:"
                        TextColor="#02c39a"/>
-                <Entry Placeholder="Enter your skills" />
+                <Entry Placeholder="Ingrese sus habilidades" />
             </StackLayout>
             <StackLayout Orientation="Vertical">
-                <Label Text="Languages:"
+                <Label Text="Lenguajes:"
                        TextColor="#02c39a"/>
-                <Entry Placeholder="Enter your languages" />
+                <Entry Placeholder="Ingrese los lenguajes que sepa" />
             </StackLayout>
             <StackLayout>
-                <Button Text="Submit" 
+                <Button Text="Subir" 
                         Clicked="Button_Clicked"    
                         BackgroundColor="#02c39a"
-                        TextColor="White"></Button>
+                        TextColor="Black"></Button>
             </StackLayout>
         </StackLayout>
     </ScrollView>
